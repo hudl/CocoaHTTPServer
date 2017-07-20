@@ -8,6 +8,31 @@
 #warning This file must be compiled with ARC. Use -fobjc-arc flag (or convert project to ARC).
 #endif
 
+// Does ARC support support GCD objects?
+// It does if the minimum deployment target is iOS 6+ or Mac OS X 8+
+
+#if TARGET_OS_IPHONE
+
+  // Compiling for iOS
+
+  #if __IPHONE_OS_VERSION_MIN_REQUIRED >= 60000 // iOS 6.0 or later
+    #define NEEDS_DISPATCH_RETAIN_RELEASE 0
+  #else                                         // iOS 5.X or earlier
+    #define NEEDS_DISPATCH_RETAIN_RELEASE 1
+  #endif
+
+#else
+
+  // Compiling for Mac OS X
+
+  #if MAC_OS_X_VERSION_MIN_REQUIRED >= 1080     // Mac OS X 10.8 or later
+    #define NEEDS_DISPATCH_RETAIN_RELEASE 0
+  #else
+    #define NEEDS_DISPATCH_RETAIN_RELEASE 1     // Mac OS X 10.7 or earlier
+  #endif
+
+#endif
+
 // Log levels: off, error, warn, info, verbose
 // Other flags: trace
 static const int httpLogLevel = HTTP_LOG_LEVEL_INFO; // | HTTP_LOG_FLAG_TRACE;
@@ -38,22 +63,12 @@ static const int httpLogLevel = HTTP_LOG_LEVEL_INFO; // | HTTP_LOG_FLAG_TRACE;
 	{
 		HTTPLogTrace();
 		
-		// Setup underlying dispatch queues
+		// Initialize underlying dispatch queue and GCD based tcp socket
 		serverQueue = dispatch_queue_create("HTTPServer", NULL);
-		connectionQueue = dispatch_queue_create("HTTPConnection", NULL);
-		
-		IsOnServerQueueKey = &IsOnServerQueueKey;
-		IsOnConnectionQueueKey = &IsOnConnectionQueueKey;
-		
-		void *nonNullUnusedPointer = (__bridge void *)self; // Whatever, just not null
-		
-		dispatch_queue_set_specific(serverQueue, IsOnServerQueueKey, nonNullUnusedPointer, NULL);
-		dispatch_queue_set_specific(connectionQueue, IsOnConnectionQueueKey, nonNullUnusedPointer, NULL);
-		
-		// Initialize underlying GCD based tcp socket
 		asyncSocket = [[GCDAsyncSocket alloc] initWithDelegate:self delegateQueue:serverQueue];
 		
 		// Use default connection class of HTTPConnection
+		connectionQueue = dispatch_queue_create("HTTPConnection", NULL);
 		connectionClass = [HTTPConnection self];
 		
 		// By default bind on all available interfaces, en1, wifi etc
@@ -114,7 +129,7 @@ static const int httpLogLevel = HTTP_LOG_LEVEL_INFO; // | HTTP_LOG_FLAG_TRACE;
 	
 	// Release all instance variables
 	
-	#if !OS_OBJECT_USE_OBJC
+	#if NEEDS_DISPATCH_RETAIN_RELEASE
 	dispatch_release(serverQueue);
 	dispatch_release(connectionQueue);
 	#endif
@@ -368,7 +383,6 @@ static const int httpLogLevel = HTTP_LOG_LEVEL_INFO; // | HTTP_LOG_FLAG_TRACE;
 	
 	return result;
 }
-
 - (void)setTXTRecordDictionary:(NSDictionary *)value
 {
 	HTTPLogTrace();
@@ -563,7 +577,7 @@ static const int httpLogLevel = HTTP_LOG_LEVEL_INFO; // | HTTP_LOG_FLAG_TRACE;
 {
 	HTTPLogTrace();
 	
-	NSAssert(dispatch_get_specific(IsOnServerQueueKey) != NULL, @"Must be on serverQueue");
+	NSAssert(dispatch_get_current_queue() == serverQueue, @"Invalid queue");
 	
 	if (type)
 	{
@@ -598,7 +612,7 @@ static const int httpLogLevel = HTTP_LOG_LEVEL_INFO; // | HTTP_LOG_FLAG_TRACE;
 {
 	HTTPLogTrace();
 	
-	NSAssert(dispatch_get_specific(IsOnServerQueueKey) != NULL, @"Must be on serverQueue");
+	NSAssert(dispatch_get_current_queue() == serverQueue, @"Invalid queue");
 	
 	if (netService)
 	{
@@ -734,15 +748,13 @@ static NSThread *bonjourThread;
 		
 		// We can't run the run loop unless it has an associated input source or a timer.
 		// So we'll just create a timer that will never fire - unless the server runs for 10,000 years.
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wundeclared-selector"
+		
 		[NSTimer scheduledTimerWithTimeInterval:[[NSDate distantFuture] timeIntervalSinceNow]
 		                                 target:self
 		                               selector:@selector(donothingatall:)
 		                               userInfo:nil
 		                                repeats:YES];
-#pragma clang diagnostic pop
-
+		
 		[[NSRunLoop currentRunLoop] run];
 		
 		HTTPLogVerbose(@"%@: BonjourThread: Aborted", THIS_FILE);

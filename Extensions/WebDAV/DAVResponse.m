@@ -244,7 +244,6 @@ static xmlNodePtr _XMLChildWithName(xmlNodePtr child, const xmlChar* name) {
       NSString* scope = nil;
       NSString* type = nil;
       NSString* owner = nil;
-      NSString* token = nil;
       xmlDocPtr document = xmlReadMemory(body.bytes, (int)body.length, NULL, NULL, kXMLParseOptions);
       if (document) {
         xmlNodePtr node = _XMLChildWithName(document->children, (const xmlChar*)"lockinfo");
@@ -268,26 +267,15 @@ static xmlNodePtr _XMLChildWithName(xmlNodePtr child, const xmlChar* name) {
           HTTPLogWarn(@"HTTP Server: Invalid DAV properties\n%@", [[NSString alloc] initWithData:body encoding:NSUTF8StringEncoding]);
         }
         xmlFreeDoc(document);
-      } else {
-		  // No body, see if they're trying to refresh an existing lock.  If so, then just fake up the scope, type and depth so we fall
-		  // into the lock create case.
-		  NSString* lockToken;
-		  if ((lockToken = [headers objectForKey:@"If"]) != nil) {
-			  scope = @"exclusive";
-			  type = @"write";
-			  depth = @"0";
-			  token = [lockToken stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"(<>)"]];
-		  }
-	  }
+      }
       if ([scope isEqualToString:@"exclusive"] && [type isEqualToString:@"write"] && [depth isEqualToString:@"0"] &&
         ([[NSFileManager defaultManager] fileExistsAtPath:path] || [[NSData data] writeToFile:path atomically:YES])) {
         NSString* timeout = [headers objectForKey:@"Timeout"];
-		if (!token) {
-          CFUUIDRef uuid = CFUUIDCreate(kCFAllocatorDefault);
-          NSString *uuidStr = (__bridge_transfer NSString *)CFUUIDCreateString(kCFAllocatorDefault, uuid);
-          token = [NSString stringWithFormat:@"urn:uuid:%@", uuidStr];
-          CFRelease(uuid);
-		}
+        
+        CFUUIDRef uuid = CFUUIDCreate(kCFAllocatorDefault);
+        NSString *uuidStr = (__bridge_transfer NSString *)CFUUIDCreateString(kCFAllocatorDefault, uuid);
+        NSString* token = [NSString stringWithFormat:@"urn:uuid:%@", uuidStr];
+        CFRelease(uuid);
         
         NSMutableString* xmlString = [NSMutableString stringWithString:@"<?xml version=\"1.0\" encoding=\"utf-8\" ?>"];
         [xmlString appendString:@"<D:prop xmlns:D=\"DAV:\">\n"];
@@ -302,8 +290,7 @@ static xmlNodePtr _XMLChildWithName(xmlNodePtr child, const xmlChar* name) {
           [xmlString appendFormat:@"<D:timeout>%@</D:timeout>\n", timeout];
         }
         [xmlString appendFormat:@"<D:locktoken><D:href>%@</D:href></D:locktoken>\n", token];
-		NSString* lockroot = [@"http://" stringByAppendingString:[[headers objectForKey:@"Host"] stringByAppendingString:[@"/" stringByAppendingString:resourcePath]]];
-        [xmlString appendFormat:@"<D:lockroot><D:href>%@</D:href></D:lockroot>\n", lockroot];
+        // [xmlString appendFormat:@"<D:lockroot><D:href>%@</D:href></D:lockroot>\n", root];
         [xmlString appendString:@"</D:activelock>\n</D:lockdiscovery>\n"];
         [xmlString appendString:@"</D:prop>"];
         

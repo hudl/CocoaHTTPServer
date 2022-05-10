@@ -1,0 +1,19 @@
+{
+  "object" : {
+    "repositories" : {
+      "https://github.com/apple/swift-log.git" : {
+        "repositoryURL" : "https://github.com/apple/swift-log.git",
+        "subpath" : "swift-log-df1c07b5"
+      },
+      "https://github.com/CocoaLumberjack/CocoaLumberjack.git" : {
+        "repositoryURL" : "https://github.com/CocoaLumberjack/CocoaLumberjack.git",
+        "subpath" : "CocoaLumberjack-4c113d85"
+      },
+      "https://github.com/robbiehanson/CocoaAsyncSocket" : {
+        "repositoryURL" : "https://github.com/robbiehanson/CocoaAsyncSocket",
+        "subpath" : "CocoaAsyncSocket-4db718c3"
+      }
+    }
+  },
+  "version" : 1
+}

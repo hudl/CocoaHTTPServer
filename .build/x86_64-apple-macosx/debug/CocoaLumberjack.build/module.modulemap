@@ -1,0 +1,4 @@
+module CocoaLumberjack {
+    umbrella "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/checkouts/CocoaLumberjack/Sources/CocoaLumberjack/include"
+    export *
+}

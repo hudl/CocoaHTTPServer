@@ -1,0 +1,4 @@
+module CocoaLumberjackSwift {
+    header "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjackSwift.build/CocoaLumberjackSwift-Swift.h"
+    requires objc
+}

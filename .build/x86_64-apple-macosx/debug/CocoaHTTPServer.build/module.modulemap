@@ -1,0 +1,4 @@
+module CocoaHTTPServer {
+    umbrella "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/Sources/CocoaHTTPServer/include"
+    export *
+}

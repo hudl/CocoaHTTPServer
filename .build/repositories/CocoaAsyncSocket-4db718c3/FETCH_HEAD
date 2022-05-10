@@ -1,0 +1,311 @@
+60a450bdc86ceaad46ae856b179e05f9d5f3da7d	not-for-merge	branch '7.0.X' of https://github.com/robbiehanson/CocoaAsyncSocket
+21a021b9412b8493dc1147a6d916d4d819ac3ab8	not-for-merge	branch '7.4' of https://github.com/robbiehanson/CocoaAsyncSocket
+55b1b659e32266efade1794266523320d0714e7e	not-for-merge	branch 'dependabot/bundler/cocoapods-downloader-1.6.3' of https://github.com/robbiehanson/CocoaAsyncSocket
+5faadd48a7fd9cf6c08d0ba72aeeffd05b050aeb	not-for-merge	branch 'ipv6' of https://github.com/robbiehanson/CocoaAsyncSocket
+292516d71e32fa3f0a3c81ce333856cd6e087508	not-for-merge	branch 'issue_541' of https://github.com/robbiehanson/CocoaAsyncSocket
+5ddba5e72f38e56010dbfac08b44478ee5000c0c	not-for-merge	branch 'master' of https://github.com/robbiehanson/CocoaAsyncSocket
+a65dc7e3503d53b1129f727d6db4461e88ba5e0f	not-for-merge	branch 'modern_objc' of https://github.com/robbiehanson/CocoaAsyncSocket
+d289e0779a2568a7e0769a363de67190f9509fe2	not-for-merge	branch 'multiconnect' of https://github.com/robbiehanson/CocoaAsyncSocket
+8ce941d5d3df4b9c4e8034f50c1e0d49d786a221	not-for-merge	branch 'remove-runloop' of https://github.com/robbiehanson/CocoaAsyncSocket
+4b88ce116b0ecbf974776c6a5f027c1bb90e0fd4	not-for-merge	branch 'xcode_9.3' of https://github.com/robbiehanson/CocoaAsyncSocket
+37cd53681211b81db9e1d7813839c7ffe4b1706a	not-for-merge	'refs/pull/1/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+5e2ebaf1f74e7fa651fc670225b9320cc921d01e	not-for-merge	'refs/pull/1/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+14dce73cb1d8d4212b4a07798e6122f0d928fa15	not-for-merge	'refs/pull/10/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+a3e5b5374793b92313a3bdeb6b9fedea33161626	not-for-merge	'refs/pull/10/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+84e77d1274b27ef32f56ab66f728003def94126c	not-for-merge	'refs/pull/100/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+b200e89dac219996d2c7fad2a4f22746632b50cb	not-for-merge	'refs/pull/115/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+58ef0a461a454e8db4f8768485c8cf1d1091ea85	not-for-merge	'refs/pull/115/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+993e8e263d6f2e08591f2b9d8c8b90a2645b98ad	not-for-merge	'refs/pull/116/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+5cb217e7501bc4449730398d671c6b3b4fbe2e42	not-for-merge	'refs/pull/116/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+ca5e89a53adcf0d3d4193fee771e8c31ffee75b1	not-for-merge	'refs/pull/117/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+b5ea227f5f05b962b8677a9e342b1509b8135753	not-for-merge	'refs/pull/117/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+07cdd34c4f39029774fbb22f1c9486b4137d14d1	not-for-merge	'refs/pull/125/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+49017c00dd1d62e346df9f76bd07ca3a104269b1	not-for-merge	'refs/pull/125/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+8e64fbce5195dfb0e967ef4959dd348f4d984eb1	not-for-merge	'refs/pull/126/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+4a7b7a1881e5504717a30179cf97a0e1ef7dd84c	not-for-merge	'refs/pull/126/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+21fb90bbb0e31f4ae1f4aca6b4311d9fe252b591	not-for-merge	'refs/pull/128/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+c0086b43d6510c6b8de184ebe67b7e0ddebbdbf5	not-for-merge	'refs/pull/128/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+346a18503a12cce68ce6279f918d0a37abc3d47f	not-for-merge	'refs/pull/129/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+1456b27412c8bcd0c3f328f4427739b67439ecab	not-for-merge	'refs/pull/129/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+dc3602bc69d39f1387cc5ef5ecb5c8d0f2bce000	not-for-merge	'refs/pull/13/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+4aba9ab54f0ccff73d9e4c6754198b768be75b3e	not-for-merge	'refs/pull/13/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+b6d6c0a65d51ead700cc62577d6a19ae73ae317c	not-for-merge	'refs/pull/130/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+7eac427c2615bbcae0e86b7ff5e33d5c3d0ac987	not-for-merge	'refs/pull/132/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+2caffdaad56f87c191c19354ec1848d187c9b103	not-for-merge	'refs/pull/132/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+51410f37e57674347277a733528514f54185d0f7	not-for-merge	'refs/pull/134/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+53f4ddb5181376d4c917a5d69dd1f4949f47695c	not-for-merge	'refs/pull/134/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+fd3caa9cc287c818fab11566e6813fe8c5446a95	not-for-merge	'refs/pull/138/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+ebd191d199235bb63e9bcdb8b5f3f31490561333	not-for-merge	'refs/pull/138/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+84e3b8e4ff246928c6211990f76b1c9211815ab9	not-for-merge	'refs/pull/14/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+848953d60d428de555bea32f34e6ba09a1b0a0a9	not-for-merge	'refs/pull/14/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+c498151bfbc95de231eaba6338ba37f0cb892d13	not-for-merge	'refs/pull/157/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+d5febba910b01c36e30f27ffbfe85efde4ce5c53	not-for-merge	'refs/pull/159/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+b738e1639a7b5f67a898626543b83a3eadbd49dd	not-for-merge	'refs/pull/159/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+796bc0fc8ee06d1d69e18292cba95fd5005ac625	not-for-merge	'refs/pull/16/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+a6b576ac33b1626d7fd7dde14688e90a5cd60346	not-for-merge	'refs/pull/16/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+60732d6e067d2fd2127b2dbca36d03a4fe80097c	not-for-merge	'refs/pull/161/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+13a05d3cb4533a3f72daa5493a98c9b24f284505	not-for-merge	'refs/pull/161/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+258709ff395ff33d38f9b668945129cb5ee319f8	not-for-merge	'refs/pull/162/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+32da0c16d56ac2cdf22ea63c3117c25325e810bb	not-for-merge	'refs/pull/162/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+18cd0ec1bd2558453523c05371087d5fea02c5a2	not-for-merge	'refs/pull/165/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+cbf4a688b2d2f47fcfa01c42a3b392eda73e9788	not-for-merge	'refs/pull/165/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+12a7bd8b1cfab0bbfb631db20585e546bc19d016	not-for-merge	'refs/pull/166/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+d00ef66f391f682c165b50036d31848443f8ed6b	not-for-merge	'refs/pull/166/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+86c5602aaa49b07b588843ac995b399574b6b100	not-for-merge	'refs/pull/167/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+24373b31f7407e2ae08fc2ff9c125fd24888486c	not-for-merge	'refs/pull/167/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+81ac90fabe808778e5043c2bbbc7b84273cd62da	not-for-merge	'refs/pull/176/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+f2902192081d03b3bbb55f9d2bc5bd792dd1b6a0	not-for-merge	'refs/pull/176/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+206c81798a3a775aa72413adc72cc7c56e91811b	not-for-merge	'refs/pull/188/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+9a6322454a4f9f6c007059eaf596ad3ce0be589e	not-for-merge	'refs/pull/189/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+6e73924fbaa439a20f4023d7673b4aaf3a2b5532	not-for-merge	'refs/pull/189/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+d8c3fe2e1f8e7fdda8d83426b3e544c619bb773f	not-for-merge	'refs/pull/191/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+680a72e5340968ff19eb5f5da1de388f2b98fb49	not-for-merge	'refs/pull/194/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+55c6ce5a1c563093f48498f1e76a9bb61cd65738	not-for-merge	'refs/pull/194/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+b37e84932f4a0a66d25db1b70a6bc5b7565d476b	not-for-merge	'refs/pull/195/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+479edd9e321fdd5aa0ce52ebfbee2c0c21227e24	not-for-merge	'refs/pull/205/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+a86772f5b8b316f56897415056841fe1b2446ddc	not-for-merge	'refs/pull/209/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+b37d5b65772e143173e637d0a4c6b44e1ed8d6d6	not-for-merge	'refs/pull/209/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+7840d324087a3f64a3d11d282782d2bbf7ccbfd3	not-for-merge	'refs/pull/214/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+0872092e8a94354a606bc9640535ed8b453b9042	not-for-merge	'refs/pull/217/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+1dec0397bd18bfa6cd4f8820ae9e326e108a6d2b	not-for-merge	'refs/pull/222/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+4268b2d5825197fb3eb133d303119760e3979c4d	not-for-merge	'refs/pull/225/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+261e774444336fa6b1da16a3eb583c7bd16e3dbf	not-for-merge	'refs/pull/225/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+d289e0779a2568a7e0769a363de67190f9509fe2	not-for-merge	'refs/pull/230/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+73dd0f4f22d5880440e21a38c09a6a22b867e185	not-for-merge	'refs/pull/239/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+c672b84f6f38d14e7b8b72c1316ea0e4047411c9	not-for-merge	'refs/pull/240/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+2304d48363fa0fc9f73b094e9f872af766d0a6d6	not-for-merge	'refs/pull/240/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+ca4d28b7485973f173ac0cb1cbcb83696f5a6a41	not-for-merge	'refs/pull/241/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+43bf4362544f0f88227a5ddc390c5f7b18452478	not-for-merge	'refs/pull/243/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+9ea56bc6104dee872a844fb31226c623d8508f08	not-for-merge	'refs/pull/243/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+3ab00b127b7070b3bf36b06a4bbf9f101cee347b	not-for-merge	'refs/pull/251/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+9bfe8eba4b4dce8658a259758f6a7b117b1878be	not-for-merge	'refs/pull/251/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+56378ffaf8d946f488052262292dc5fdb71e7506	not-for-merge	'refs/pull/252/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+a56935e3113e45f2b96becd4f3e4bf0452eea932	not-for-merge	'refs/pull/254/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+e9247da8aa5e74c4e335ad3325379370bc5a6110	not-for-merge	'refs/pull/255/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+104e89fb718275911b30d4e008c0ffbb246a1804	not-for-merge	'refs/pull/256/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+4b80055ee5c5dcdde6f45175d53381016b3e35e6	not-for-merge	'refs/pull/256/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+ee85037e1eaa38e71ac797c8f75d14ede2f0482f	not-for-merge	'refs/pull/258/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+6f4642127b778fe5f968ddc7a67d073bff4fc7a2	not-for-merge	'refs/pull/26/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+18898e5e652468d16263de81a73d17a5465c9289	not-for-merge	'refs/pull/26/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+b5d041b52988b208b74e25d37a611e12f53b3c62	not-for-merge	'refs/pull/264/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+cd06b6909307fd7d6accadeb06ef93570b960b61	not-for-merge	'refs/pull/267/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+4db6ea9b825cb21b39f0de75228331a86b177794	not-for-merge	'refs/pull/267/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+c918be463dc2428b9c933c3e4bcb3f7eccb4b0b3	not-for-merge	'refs/pull/284/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+5299f95fffb0ebb854d7089c3041fe26eab35fa9	not-for-merge	'refs/pull/290/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+3a8fa73f751853e16f8500244ab3e0c04041b43d	not-for-merge	'refs/pull/290/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+904e0f3ff6dede0a7033435ba79b1c91b6be66f8	not-for-merge	'refs/pull/291/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+33972d15025b5e765a611726a03b03c4ba94b454	not-for-merge	'refs/pull/3/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+362dafd23a909819ca87911bdca748a1630c9087	not-for-merge	'refs/pull/3/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+9ee527873b639534813b8753669b6841349eb07c	not-for-merge	'refs/pull/304/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+d05ed9fd48aad8f8f8fc76788ea850c63010f20d	not-for-merge	'refs/pull/304/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+7e35f670f409e1910247c23aeb43f398558621bb	not-for-merge	'refs/pull/306/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+080d18236de6b02cb55e992ce77a73d52367633a	not-for-merge	'refs/pull/306/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+c3365412e34c13024188906dfc9aa24c475af352	not-for-merge	'refs/pull/307/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+87fe5eeea9671479392763c087c71cbf64fe2a87	not-for-merge	'refs/pull/307/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+68a45e9311a736e8ae6e108b7ee239a0c33df25f	not-for-merge	'refs/pull/310/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+c60690ebdc9d62471fa7d4024dede291be81da6e	not-for-merge	'refs/pull/310/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+f7188716b2a1a4805e9f1709acc6ee73fa13daab	not-for-merge	'refs/pull/313/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+21ca15113a3f97fd0a28afcee2b5a72543473357	not-for-merge	'refs/pull/331/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+dd601723abf0af9ad5cbe916d28b005045c2a0dc	not-for-merge	'refs/pull/331/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+348572a8d9e2da292df82f482c553b311c84ce2d	not-for-merge	'refs/pull/332/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+c0b6023c4a55796ac622ab61f48f8efceca4bf39	not-for-merge	'refs/pull/336/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+728cf905ff6fb871830af0bb0454a3379e007dac	not-for-merge	'refs/pull/337/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+bf906d0c46703db2ebc3518fefcf3955f1bb2607	not-for-merge	'refs/pull/338/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+dbe444adaf82e8183d115a04e37b5685a36965fb	not-for-merge	'refs/pull/338/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+be15c6d1dbfc75baf48fa77d35c13fd045f642aa	not-for-merge	'refs/pull/339/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+6a7f936ea9af23ea09f50bee012f6f9e54457305	not-for-merge	'refs/pull/34/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+47fe540f35499e0a50f4682bea6262c78da99c73	not-for-merge	'refs/pull/34/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+5da1e8f2d3b8acfb0b4488b0bbfb9212c4c41d47	not-for-merge	'refs/pull/340/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+38c0c12cafd21109f486d68d14a30c5f4fd95399	not-for-merge	'refs/pull/341/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+4b5d9349fd1cad3fc97487733ff4d21ebe9e2f99	not-for-merge	'refs/pull/344/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+e3f118cefcb434a505e3235a381efdfc04636a20	not-for-merge	'refs/pull/344/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+cb8a10980af5169da29f569620468f0080770c67	not-for-merge	'refs/pull/345/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+73de46cdb4f010e47e06a5b35f6db269f5150e5a	not-for-merge	'refs/pull/346/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+fe8a62887d0ed42872e54d5af0ebf635d3b3df4e	not-for-merge	'refs/pull/352/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+c8003c817ad32347fc53393939256fbec1e4c1a0	not-for-merge	'refs/pull/353/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+7c4bb8c815b8f91161b4a0b68937f1925342f812	not-for-merge	'refs/pull/353/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+2094e09b4cab8c072c4bd0c0480f6280559793e7	not-for-merge	'refs/pull/356/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+d2b1f3dd90913525d6a36440f8021defa608c824	not-for-merge	'refs/pull/356/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+5374a4c706494a99500fd5164c7bddc6f216d59b	not-for-merge	'refs/pull/360/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+8cd96e8186182d1f6c78f987a1a718b9308244ef	not-for-merge	'refs/pull/363/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+ef9371d7c66d599d3fd1e3ac6c3425ec236715d9	not-for-merge	'refs/pull/367/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+381f9d2ac986456b359e37788b720735402318f1	not-for-merge	'refs/pull/369/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+e7e15029d44c6400ea95b85a598afe1f423d9263	not-for-merge	'refs/pull/369/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+b56ae23ebe0e60ec981ca2864e6af6d5e9155eda	not-for-merge	'refs/pull/374/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+8cb25cd031f721dabfac51bed9b52f60dae36e0d	not-for-merge	'refs/pull/38/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+9b19793c0008d1b06dd24d50d493cd05ed85e3a7	not-for-merge	'refs/pull/38/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+6e018ddf7c456106f898efae66ea5e5c94737a96	not-for-merge	'refs/pull/381/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+70efb713208034dd08c76ad1cfbef10580eb4a64	not-for-merge	'refs/pull/386/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+5fadddb92425405bf179480108389536b707ae90	not-for-merge	'refs/pull/386/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+5db1b181b6c39f2394a6c67ed747b1f25f083f5d	not-for-merge	'refs/pull/393/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+ae2855f80be1a2aa28d05a4bb02cf30f88817649	not-for-merge	'refs/pull/398/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+ec42113d36b039d8d3be5db8f8dc81202757dc5b	not-for-merge	'refs/pull/404/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+1e0c373d5c4062b58587f0384f7e15250533505d	not-for-merge	'refs/pull/41/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+e2655dc2d9e912ddfba26caa55b75935108e8eea	not-for-merge	'refs/pull/41/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+fc96922605ae3e2e0d8624d811918541dff0aeb0	not-for-merge	'refs/pull/411/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+2e5799ecd6f689d5de512a84eb5d3dd14287cbef	not-for-merge	'refs/pull/416/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+03e237930365d42741cf5017d03e0af15b1c4807	not-for-merge	'refs/pull/417/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+136e1468e42487fc3d3961289ac9870c02dc57c9	not-for-merge	'refs/pull/420/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+7877b0a34c3912331f12f7f74b560cafd3210d87	not-for-merge	'refs/pull/430/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+134e82ef37befb5c807d608185207ee0c2e439dd	not-for-merge	'refs/pull/445/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+ff74eb1dd45173d320fe735c2293ee80fb679c16	not-for-merge	'refs/pull/45/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+c17e87eeb056236fd68686b1531954ad1f3521d9	not-for-merge	'refs/pull/45/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+9cae561a8efa0202ca29baf6c68ac109e5c41899	not-for-merge	'refs/pull/451/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+f3a8d0d7669dc9ebb3fc54d5a992e20c26aa8cf0	not-for-merge	'refs/pull/453/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+be264dbbe0533e311cb1ec498a3c4adf2976ccc4	not-for-merge	'refs/pull/459/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+9eb4a654badef992c663a1a2e0e94b8894a31f95	not-for-merge	'refs/pull/463/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+4481657e8ffda1fe36ca0cce14e0f8051d54c217	not-for-merge	'refs/pull/468/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+c57e9feca2df33ff845840a5a2e49dc19866551e	not-for-merge	'refs/pull/469/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+4ac5b0742a085ebf6e31e2be82e373a877e58db2	not-for-merge	'refs/pull/469/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+295ed52a9a543f22c375503f56a0752b5fbcb119	not-for-merge	'refs/pull/483/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+3f12c8bf426b0f0eaa51f832a6cf3066ea9f76f9	not-for-merge	'refs/pull/49/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+730b2ea6784cc8f50b4b8a71b6bdc81c9044cde6	not-for-merge	'refs/pull/49/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+ff603533c733e982a9694bb328578b923764a9ea	not-for-merge	'refs/pull/5/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+a86d128d378538b41ee86b6630aea0fd46e7b259	not-for-merge	'refs/pull/5/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+481a0e267d7a835556837568f460709569bd8286	not-for-merge	'refs/pull/502/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+71294f7a7f2da898f8aae7799d485b8f648b4b9d	not-for-merge	'refs/pull/503/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+2d200e5a74c42d92e6c19043e69eadac7d8a6572	not-for-merge	'refs/pull/504/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+4949c4cc83eda5242c81ce78b93b487114b5e7db	not-for-merge	'refs/pull/505/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+966c134badff19ce6cb1c57bb5be28f7323dc45c	not-for-merge	'refs/pull/510/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+9fe5bdab2e5455bd4dd0ae60292b453dcd66ed7e	not-for-merge	'refs/pull/512/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+fe32c8cc134e488085a6de11c3907dddc379bdb9	not-for-merge	'refs/pull/515/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+d8c1a2177308b5fe1612b3bbf2f076d029e77010	not-for-merge	'refs/pull/520/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+43b91cf73deeb0988475a8c95604d0ad0dd3ccb4	not-for-merge	'refs/pull/523/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+dd5e8bd7e422f25071f2661bf9842d7191bf56a4	not-for-merge	'refs/pull/528/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+52dc418c8d2a16d28c680f31dce5ca8ab9069756	not-for-merge	'refs/pull/536/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+41e58813d0dfb0f39cb459de20acbee87181e724	not-for-merge	'refs/pull/544/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+292516d71e32fa3f0a3c81ce333856cd6e087508	not-for-merge	'refs/pull/545/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+b21102acc6200560b2b137d7cea734ac8212c1c5	not-for-merge	'refs/pull/550/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+53c93193fba669e079e0399560f343ee5f679ddd	not-for-merge	'refs/pull/552/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+fc777fc6a762b1636eff20f3170a32bd911169e0	not-for-merge	'refs/pull/554/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+1c759cdbf3bab39c102de540dd5179927bfd58e6	not-for-merge	'refs/pull/554/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+0372a386fe350319106bc260dfd5b98d5f6ef52f	not-for-merge	'refs/pull/555/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+5ff6996347e81b3b3586b64dab91a3e8dc9af3da	not-for-merge	'refs/pull/560/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+7c3ed3f19511138e36754b2cbe713b67f2be1ab3	not-for-merge	'refs/pull/591/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+2a00ce6db63b0f120003a8c27a8ebb0dc555eaf8	not-for-merge	'refs/pull/596/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+6ea75b37ca665ce819109a1c9e2b157b14359b5a	not-for-merge	'refs/pull/599/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+79b41731ded76a86dee1aa098d9c10439b66b0db	not-for-merge	'refs/pull/6/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+63ecf4937653744f13b3c4ae101276157b95baa3	not-for-merge	'refs/pull/6/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+b99e8cd942f4611a14945c49b2a40a7f02cb11b1	not-for-merge	'refs/pull/600/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+604edd22ac9e8e0bb77f14bbd144a9c6091f6be0	not-for-merge	'refs/pull/600/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+e8cfdac2d713d25b1f79ba8615091b893d78d453	not-for-merge	'refs/pull/601/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+b32b2e5f09b7c604afad7fe34809943c612faa0d	not-for-merge	'refs/pull/601/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+b534665b9478e203d2e0bd341aa9045ef098c06c	not-for-merge	'refs/pull/603/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+caa97d751623978c4bf6f748382e55011062d216	not-for-merge	'refs/pull/606/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+3bcf8221bc75a06079e1ed95702080c65d51275c	not-for-merge	'refs/pull/606/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+9520d9d32477c39eb4a6ec827ff473fe67555944	not-for-merge	'refs/pull/607/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+bd836061466b738f2342bc3b75832314a485b967	not-for-merge	'refs/pull/607/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+086bafaf1efc495b5210e0e408b601aa2129fb07	not-for-merge	'refs/pull/608/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+0295137cf5a091ac479d010263b59ee4d1890666	not-for-merge	'refs/pull/608/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+cb22b157acb4c3afa077f2a02909efd6989d7e11	not-for-merge	'refs/pull/610/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+91ed86a5f6af401090837874d962f72dc5be5479	not-for-merge	'refs/pull/610/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+4b88ce116b0ecbf974776c6a5f027c1bb90e0fd4	not-for-merge	'refs/pull/611/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+4c76fbc2c926cc00de052c8cc6722b7cfe8be5f0	not-for-merge	'refs/pull/618/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+5f2265b36c12a65a88c98770397b3bcbe1cf435d	not-for-merge	'refs/pull/62/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+a374c5615d78a21208b62926ffd00ba8bac7f15f	not-for-merge	'refs/pull/62/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+5588278c0e5ca16823bb87bf64fc15e54a88651e	not-for-merge	'refs/pull/621/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+ca185537cfdbbb6811630e14d224ed34c51ca8c5	not-for-merge	'refs/pull/648/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+d115a4c2b1bcc8b767223086877eb8aa0087b037	not-for-merge	'refs/pull/654/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+d09e3a9e247d33754b76c0813cd58496b0670d5a	not-for-merge	'refs/pull/66/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+5a76b060cfe2708ae34486404c4a2696895cdbeb	not-for-merge	'refs/pull/66/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+6ee0ba56165f8b13268ba8c57cef65e9a25fa1ec	not-for-merge	'refs/pull/663/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+8fd1b1193e9bcf18aa0a7d1cd9b5f2010094ca1c	not-for-merge	'refs/pull/673/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+13844641a90dd4a550c969ca69a4bf6e51e97072	not-for-merge	'refs/pull/674/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+5cea52c11cbc9203fc5357e0eba7425c4877921e	not-for-merge	'refs/pull/677/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+7bde69b671f8bc6ce9ab066fcfccd4a19fcdaab1	not-for-merge	'refs/pull/679/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+c3bf6853a123a4f04fcefa04498a3828dfa6addd	not-for-merge	'refs/pull/68/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+847cd992396451fae134fd642acb755bd5067570	not-for-merge	'refs/pull/68/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+14dafdc5c5d5b7890135c2a7e78e2424acad5b58	not-for-merge	'refs/pull/681/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+9853fc2c26240b5300f034114d1dd6f514d216bd	not-for-merge	'refs/pull/682/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+52327ea50a48e80075ee0b1c5ffd0cfca4a8731f	not-for-merge	'refs/pull/691/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+fb038f6736f2e4459fa8602bc7fd1475f11de3b2	not-for-merge	'refs/pull/692/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+16c89ff67823816334bb1ac40391793a6f983f36	not-for-merge	'refs/pull/700/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+b65cf3b004f8880e140ca7d4e19cc22a5bbd931d	not-for-merge	'refs/pull/706/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+2d12a35c4696ce73a9af0f47bcabc167760bb519	not-for-merge	'refs/pull/708/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+47dea82d56bae12afeee393c90ddb48970c87adc	not-for-merge	'refs/pull/711/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+91619609f57826eb72c94a83e5ececbdabdbefe0	not-for-merge	'refs/pull/712/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+fc3c6f9211ec9e9809fe82b2253848feaa974672	not-for-merge	'refs/pull/717/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+dbcb9de0a251be02eeff374c6a5996dc41ed501f	not-for-merge	'refs/pull/723/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+f10a2bd555169274fb7294b4e28d59dfe2ad87ed	not-for-merge	'refs/pull/732/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+b90c882401a822eae84f4a76b07e69af355c2191	not-for-merge	'refs/pull/741/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+be19a5655846abceee68dde2a06647cd6addc285	not-for-merge	'refs/pull/746/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+b9479e5e20488b088138e30e61ec1f0d5c3514ab	not-for-merge	'refs/pull/757/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+31935d703ea04e483f64b585dfffa8f9e4ee72f3	not-for-merge	'refs/pull/758/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+2d131acff5fcd82027c0b76fdce0e408f972ea33	not-for-merge	'refs/pull/764/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+8a664b7552657adc7bfd27ab07a579ae76d2b19e	not-for-merge	'refs/pull/77/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+b1fd2877ddd98ce5653b7676ac40eabaffef28c1	not-for-merge	'refs/pull/77/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+d98d770d57e2596a60626ab9c26529ff86cd95b6	not-for-merge	'refs/pull/780/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+43e6bfce048b877f3fc4d55008c41134c5e8ecdd	not-for-merge	'refs/pull/782/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+59c1f82523558756cee62e472f17923a1833c24f	not-for-merge	'refs/pull/785/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+55b1b659e32266efade1794266523320d0714e7e	not-for-merge	'refs/pull/787/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+1c8ca93a924178374055bb875fbf860c52c7efdb	not-for-merge	'refs/pull/787/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+21bf1c34c200bcbd24f5cead65bf508eac1b4834	not-for-merge	'refs/pull/8/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+19f5d0c67e111b7b588198b877246990179289e9	not-for-merge	'refs/pull/8/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+3cde9a92347fcb6f376a1dfc314293101915f9f5	not-for-merge	'refs/pull/88/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+4cb13b73144a70aaca8e31072521d175a6140512	not-for-merge	'refs/pull/90/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+dd2217abde1ae602ada1c053b8a02410b4462fad	not-for-merge	'refs/pull/90/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+4cb13b73144a70aaca8e31072521d175a6140512	not-for-merge	'refs/pull/91/head' of https://github.com/robbiehanson/CocoaAsyncSocket
+5dd977bb156880e373d036dc419f9caba8426c9f	not-for-merge	'refs/pull/91/merge' of https://github.com/robbiehanson/CocoaAsyncSocket
+4688e544509a315fc418f25eb9fc4fe88f38a26f	not-for-merge	tag '4.3' of https://github.com/robbiehanson/CocoaAsyncSocket
+dade6d51faaf4b2ce54bad3126d5f1a79bae0d5e	not-for-merge	tag '4.3.1' of https://github.com/robbiehanson/CocoaAsyncSocket
+7b0fbfdd7e5a2ba90017f77abc344da713bca8d1	not-for-merge	tag '4.3.2' of https://github.com/robbiehanson/CocoaAsyncSocket
+8e33a7c717bcbda3cd4c0ed630e37111e971c3d9	not-for-merge	tag '4.3.3' of https://github.com/robbiehanson/CocoaAsyncSocket
+a4a89aeebe7cc686381f615f2ed242a4a7bdc220	not-for-merge	tag '4.3.4' of https://github.com/robbiehanson/CocoaAsyncSocket
+80d2857c182c21e10ed7e5405445796402df57fd	not-for-merge	tag '4.3.5' of https://github.com/robbiehanson/CocoaAsyncSocket
+271fe858ba9f989c85fb7aaa5ee0036f488778d2	not-for-merge	tag '4.4' of https://github.com/robbiehanson/CocoaAsyncSocket
+ab5d52e4ff8eb1497e1c9829e5a2e31df0c18ca6	not-for-merge	tag '4.4.1' of https://github.com/robbiehanson/CocoaAsyncSocket
+d1223d6ba5c2a01037bb395d375f9f7badcfaf8f	not-for-merge	tag '4.4.2' of https://github.com/robbiehanson/CocoaAsyncSocket
+565495c6619a2010b2bb1612995a58ef664d488b	not-for-merge	tag '5.0' of https://github.com/robbiehanson/CocoaAsyncSocket
+a322277cab1d4c41156667251f087faf7fab0e2b	not-for-merge	tag '5.0.1' of https://github.com/robbiehanson/CocoaAsyncSocket
+c04cb50c2e7face5f0535b69f69a665460ed56c2	not-for-merge	tag '5.1' of https://github.com/robbiehanson/CocoaAsyncSocket
+c255f438cd0f131932b45458277b27c83ebbdb49	not-for-merge	tag '5.1.1' of https://github.com/robbiehanson/CocoaAsyncSocket
+e883d788246542722274a7508eca604264528e0a	not-for-merge	tag '5.2' of https://github.com/robbiehanson/CocoaAsyncSocket
+7ecdaf08472ea7205b7f7b0fd713bf0056a93768	not-for-merge	tag '5.2.1' of https://github.com/robbiehanson/CocoaAsyncSocket
+a4587e9c0b8a6507d951f5b46946f8ced2d1f97f	not-for-merge	tag '5.3' of https://github.com/robbiehanson/CocoaAsyncSocket
+04e17d616b06dfb0af9d0247930e6310274f7a86	not-for-merge	tag '5.3.1' of https://github.com/robbiehanson/CocoaAsyncSocket
+1dfec802f76b6c653e8f311579a21ab674c7ea74	not-for-merge	tag '5.4' of https://github.com/robbiehanson/CocoaAsyncSocket
+483ebcfa97ea84fc0605b40a980480dda0d56d90	not-for-merge	tag '5.4.1' of https://github.com/robbiehanson/CocoaAsyncSocket
+2758a1041a9e025ac414f5dd3cdfa9df9f069f49	not-for-merge	tag '5.5' of https://github.com/robbiehanson/CocoaAsyncSocket
+582385e3c47267b71236b2f92fb5d3a38fbe7103	not-for-merge	tag '5.5.1' of https://github.com/robbiehanson/CocoaAsyncSocket
+6267a5dbe8d7657e7e53b9aab7656ccedf62b652	not-for-merge	tag '5.6' of https://github.com/robbiehanson/CocoaAsyncSocket
+f7ee125fe89d3fcc7eef51268a05beee76f842d4	not-for-merge	tag '5.6.1' of https://github.com/robbiehanson/CocoaAsyncSocket
+08d562a95af4b1811136b3e1e6822faeb25e9719	not-for-merge	tag '5.6.2' of https://github.com/robbiehanson/CocoaAsyncSocket
+bcc229816e6c5e5f0155c9fccac4cccde9eb2db8	not-for-merge	tag '5.6.3' of https://github.com/robbiehanson/CocoaAsyncSocket
+e325f9aedb771171e0e1fb2cf9e0847f8568a9c6	not-for-merge	tag '5.6.4' of https://github.com/robbiehanson/CocoaAsyncSocket
+dcbbdfc573f876fb41d24a990adc2df946eafd4a	not-for-merge	tag '6.0' of https://github.com/robbiehanson/CocoaAsyncSocket
+b4260087b6762344a9299dfd34ea9d88365e26c6	not-for-merge	tag '6.0.1' of https://github.com/robbiehanson/CocoaAsyncSocket
+359fa428060ccd3d690fdc3f111e734585279108	not-for-merge	tag '6.0.2' of https://github.com/robbiehanson/CocoaAsyncSocket
+d7b9fd8df73826e888706305331087314010b12a	not-for-merge	tag '6.1' of https://github.com/robbiehanson/CocoaAsyncSocket
+47645ee4d3288d13045d626b315ca7206688e0d9	not-for-merge	tag '6.1.1' of https://github.com/robbiehanson/CocoaAsyncSocket
+3cfc17c0534549fd267a6bde8d7dc6c97322f175	not-for-merge	tag '6.2' of https://github.com/robbiehanson/CocoaAsyncSocket
+aca74ea0251343fa738965905b6efcb27eda28c2	not-for-merge	tag '6.2.1' of https://github.com/robbiehanson/CocoaAsyncSocket
+72c9e43767e4981ad04052e70c958621fbc46daf	not-for-merge	tag '6.2.2' of https://github.com/robbiehanson/CocoaAsyncSocket
+96b7f4f1d6cfdb85c33810a5eb7f34b462a953fc	not-for-merge	tag '6.2.3' of https://github.com/robbiehanson/CocoaAsyncSocket
+b869ae3b6d11d596f3a9008b41cbf4c83718224b	not-for-merge	tag '6.3' of https://github.com/robbiehanson/CocoaAsyncSocket
+44a24cf7aa31aa9edaa876fe800e9e1cf5e4164f	not-for-merge	tag '6.3.1' of https://github.com/robbiehanson/CocoaAsyncSocket
+3031cbd9a1543807999aa458bae04d5aed3df3c8	not-for-merge	tag '7.0' of https://github.com/robbiehanson/CocoaAsyncSocket
+12eadca41c024bf5f74d01b7908930aef569d57e	not-for-merge	tag '7.0.1' of https://github.com/robbiehanson/CocoaAsyncSocket
+c8043e90dd00af92c284b8fdf39e707be947f835	not-for-merge	tag '7.0.2' of https://github.com/robbiehanson/CocoaAsyncSocket
+ebccd47a7f87034b2b0423cc8d2c76c46ea00d6d	not-for-merge	tag '7.0.3' of https://github.com/robbiehanson/CocoaAsyncSocket
+4de533f1b5afbb145c3365908f557bdb7f5a9605	not-for-merge	tag '7.1' of https://github.com/robbiehanson/CocoaAsyncSocket
+da4c2ba2ffcc5a5dbf45b6de8aa025c6443d588a	not-for-merge	tag '7.2' of https://github.com/robbiehanson/CocoaAsyncSocket
+7787af82d00dd4730e701ba28f0555c68cdeb5dd	not-for-merge	tag '7.2.1' of https://github.com/robbiehanson/CocoaAsyncSocket
+3116601fc9db0462edcb34db8ab1d71e1fe7deb3	not-for-merge	tag '7.2.2' of https://github.com/robbiehanson/CocoaAsyncSocket
+baa5ff27e2963c4df2bc017a203655a199c05f9f	not-for-merge	tag '7.3' of https://github.com/robbiehanson/CocoaAsyncSocket
+b3a30a2aa906b8dd702215637c2b5402301b1e25	not-for-merge	tag '7.3.1' of https://github.com/robbiehanson/CocoaAsyncSocket
+73d599d1da7eaf97e3640f55773095a831344735	not-for-merge	tag '7.3.2' of https://github.com/robbiehanson/CocoaAsyncSocket
+67709b15303ecbc697df4297f29edb82def46f88	not-for-merge	tag '7.3.3' of https://github.com/robbiehanson/CocoaAsyncSocket
+3b333ddb1ddd5d3f807d67ec8b65f315ad6f5de7	not-for-merge	tag '7.3.4' of https://github.com/robbiehanson/CocoaAsyncSocket
+df236b5f1de1396d0a16c7b3936bff1728a8613b	not-for-merge	tag '7.3.5' of https://github.com/robbiehanson/CocoaAsyncSocket
+46001a25ce3c2a29a22759da72ccc65cb9535b00	not-for-merge	tag '7.4' of https://github.com/robbiehanson/CocoaAsyncSocket
+d7296b3277892ba769d075405987991be3d4181b	not-for-merge	tag '7.4.1' of https://github.com/robbiehanson/CocoaAsyncSocket
+972ef8eefe52fe59e6c25eb89af14458c35a37e6	not-for-merge	tag '7.4.2' of https://github.com/robbiehanson/CocoaAsyncSocket
+214080ecef315e806fd9bc47258f0a854744a9fa	not-for-merge	tag '7.4.3' of https://github.com/robbiehanson/CocoaAsyncSocket
+aee7199eac25ecc5ffd89d0c01057c742d63041d	not-for-merge	tag '7.5.0' of https://github.com/robbiehanson/CocoaAsyncSocket
+738b424d019ff525e5e2a46238eca605b8c65406	not-for-merge	tag '7.5.1' of https://github.com/robbiehanson/CocoaAsyncSocket
+be93ff2ab9f7825e8cb3b0cb54c6eba1175ed0fd	not-for-merge	tag '7.6.0' of https://github.com/robbiehanson/CocoaAsyncSocket
+5a08ab99c629dd92db9d43bead1e6986c7a5d427	not-for-merge	tag '7.6.1' of https://github.com/robbiehanson/CocoaAsyncSocket
+9837067296caf21b37576cb3116b3214c676b5a9	not-for-merge	tag '7.6.2' of https://github.com/robbiehanson/CocoaAsyncSocket
+246a0ba42c56f69e4fb1b9e07e3c0e4dc9a611db	not-for-merge	tag '7.6.3' of https://github.com/robbiehanson/CocoaAsyncSocket
+0e00c967a010fc43ce528bd633d032f17158d393	not-for-merge	tag '7.6.4' of https://github.com/robbiehanson/CocoaAsyncSocket
+dbdc00669c1ced63b27c3c5f052ee4d28f10150c	not-for-merge	tag '7.6.5' of https://github.com/robbiehanson/CocoaAsyncSocket

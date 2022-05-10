@@ -1,0 +1,527 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaHTTPServerPackageTests.xctest/Contents/MacOS/CocoaHTTPServerPackageTests",
+      "productName" : "CocoaHTTPServerPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.CocoaHTTPServerTests-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/Tests/CocoaHTTPServerTests/CocoaHTTPServerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaHTTPServer.build/Categories/DDData.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaHTTPServer.build/Categories/DDNumber.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaHTTPServer.build/Categories/DDRange.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaHTTPServer.build/HTTPAuthenticationRequest.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaHTTPServer.build/HTTPConnection.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaHTTPServer.build/HTTPMessage.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaHTTPServer.build/HTTPServer.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaHTTPServer.build/Mime/MultipartFormDataParser.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaHTTPServer.build/Mime/MultipartMessageHeader.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaHTTPServer.build/Mime/MultipartMessageHeaderField.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaHTTPServer.build/Responses/HTTPAsyncFileResponse.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaHTTPServer.build/Responses/HTTPDataResponse.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaHTTPServer.build/Responses/HTTPDynamicFileResponse.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaHTTPServer.build/Responses/HTTPFileResponse.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaHTTPServer.build/Responses/HTTPRedirectResponse.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaHTTPServer.build/WebSocket.m.o"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "CocoaHTTPServerTests",
+      "moduleOutputPath" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaHTTPServerTests.swiftmodule",
+      "objects" : [
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaHTTPServerTests.build/CocoaHTTPServerTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx11.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaHTTPServer.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/Sources/CocoaHTTPServer/include",
+        "-Xcc",
+        "-fmodule-map-file=/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaAsyncSocket.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/checkouts/CocoaAsyncSocket/Source/GCD",
+        "-Xcc",
+        "-fmodule-map-file=/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/checkouts/CocoaLumberjack/Sources/CocoaLumberjack/include",
+        "-module-cache-path",
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaHTTPServerTests.build/CocoaHTTPServerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaHTTPServerTests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/Tests/CocoaHTTPServerTests/CocoaHTTPServerTests.swift"
+      ],
+      "tempsPath" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaHTTPServerTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.CocoaLumberjackSwift-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/checkouts/CocoaLumberjack/Sources/CocoaLumberjackSwift/CocoaLumberjack.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/checkouts/CocoaLumberjack/Sources/CocoaLumberjackSwift/DDAssert.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/checkouts/CocoaLumberjack/Sources/CocoaLumberjackSwift/DDLog+Combine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/CLI/CLIColor.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/DDASLLogCapture.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/DDASLLogger.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/DDAbstractDatabaseLogger.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/DDFileLogger.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/DDLog.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/DDLoggerNames.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/DDOSLogger.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/DDTTYLogger.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/Extensions/DDContextFilterLogFormatter+Deprecated.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/Extensions/DDContextFilterLogFormatter.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/Extensions/DDDispatchQueueLogFormatter.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/Extensions/DDFileLogger+Buffering.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/Extensions/DDMultiFormatter.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjackSwiftSupport.build/empty.c.o"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "CocoaLumberjackSwift",
+      "moduleOutputPath" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjackSwift.swiftmodule",
+      "objects" : [
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjackSwift.build/CocoaLumberjack.swift.o",
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjackSwift.build/DDAssert.swift.o",
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjackSwift.build/DDLog+Combine.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx10.10",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjackSwiftSupport.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/checkouts/CocoaLumberjack/Sources/CocoaLumberjackSwiftSupport/include",
+        "-Xcc",
+        "-fmodule-map-file=/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/checkouts/CocoaLumberjack/Sources/CocoaLumberjack/include",
+        "-module-cache-path",
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjackSwift.build/CocoaLumberjackSwift-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjackSwift.build/CocoaLumberjack.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjackSwift.build/DDAssert.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjackSwift.build/DDLog+Combine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjackSwift.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/checkouts/CocoaLumberjack/Sources/CocoaLumberjackSwift/CocoaLumberjack.swift",
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/checkouts/CocoaLumberjack/Sources/CocoaLumberjackSwift/DDAssert.swift",
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/checkouts/CocoaLumberjack/Sources/CocoaLumberjackSwift/DDLog+Combine.swift"
+      ],
+      "tempsPath" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjackSwift.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.CocoaLumberjackSwiftLogBackend-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/checkouts/CocoaLumberjack/Sources/CocoaLumberjackSwiftLogBackend/DDLogHandler.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/CLI/CLIColor.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/DDASLLogCapture.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/DDASLLogger.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/DDAbstractDatabaseLogger.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/DDFileLogger.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/DDLog.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/DDLoggerNames.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/DDOSLogger.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/DDTTYLogger.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/Extensions/DDContextFilterLogFormatter+Deprecated.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/Extensions/DDContextFilterLogFormatter.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/Extensions/DDDispatchQueueLogFormatter.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/Extensions/DDFileLogger+Buffering.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/Extensions/DDMultiFormatter.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "CocoaLumberjackSwiftLogBackend",
+      "moduleOutputPath" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjackSwiftLogBackend.swiftmodule",
+      "objects" : [
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjackSwiftLogBackend.build/DDLogHandler.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx10.10",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjack.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/checkouts/CocoaLumberjack/Sources/CocoaLumberjack/include",
+        "-module-cache-path",
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjackSwiftLogBackend.build/CocoaLumberjackSwiftLogBackend-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjackSwiftLogBackend.build/DDLogHandler.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjackSwiftLogBackend.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/checkouts/CocoaLumberjack/Sources/CocoaLumberjackSwiftLogBackend/DDLogHandler.swift"
+      ],
+      "tempsPath" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/CocoaLumberjackSwiftLogBackend.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.Logging-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/checkouts/swift-log/Sources/Logging/Locks.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/checkouts/swift-log/Sources/Logging/LogHandler.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/checkouts/swift-log/Sources/Logging/Logging.swift"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Logging",
+      "moduleOutputPath" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/Logging.swiftmodule",
+      "objects" : [
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/Logging.build/Locks.swift.o",
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/Logging.build/LogHandler.swift.o",
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/Logging.build/Logging.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx10.10",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/Logging.build/Logging-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/Logging.build/Locks.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/Logging.build/LogHandler.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/Logging.build/Logging.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/Logging.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/checkouts/swift-log/Sources/Logging/Locks.swift",
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/checkouts/swift-log/Sources/Logging/LogHandler.swift",
+        "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/checkouts/swift-log/Sources/Logging/Logging.swift"
+      ],
+      "tempsPath" : "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/x86_64-apple-macosx/debug/Logging.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

@@ -1,0 +1,4 @@
+module CocoaLumberjackSwiftSupport {
+    umbrella "/Users/patrick.luddy/Developer/Hudl/dev/CocoaHTTPServer/.build/checkouts/CocoaLumberjack/Sources/CocoaLumberjackSwiftSupport/include"
+    export *
+}

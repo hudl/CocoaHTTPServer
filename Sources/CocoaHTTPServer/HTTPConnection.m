@@ -9,7 +9,7 @@
 #import "DDData.h"
 #import "HTTPFileResponse.h"
 #import "HTTPAsyncFileResponse.h"
-#import "WebSocket.h"
+#import "CHSWebSocket.h"
 #import "HTTPLogging.h"
 
 #if ! __has_feature(objc_arc)
@@ -939,12 +939,12 @@ static NSMutableArray *recentNonces;
 	// Extract requested URI
 	NSString *uri = [self requestURI];
 	
-	// Check for WebSocket request
-	if ([WebSocket isWebSocketRequest:request])
+	// Check for CHSWebSocket request
+	if ([CHSWebSocket isWebSocketRequest:request])
 	{
 		HTTPLogVerbose(@"isWebSocket");
 		
-		WebSocket *ws = [self webSocketForURI:uri];
+		CHSWebSocket *ws = [self webSocketForURI:uri];
 		
 		if (ws == nil)
 		{
@@ -956,11 +956,11 @@ static NSMutableArray *recentNonces;
 			
 			[[config server] addWebSocket:ws];
 			
-			// The WebSocket should now be the delegate of the underlying socket.
+			// The CHSWebSocket should now be the delegate of the underlying socket.
 			// But gracefully handle the situation if it forgot.
 			if ([asyncSocket delegate] == self)
 			{
-				HTTPLogWarn(@"%@[%p]: WebSocket forgot to set itself as socket delegate", THIS_FILE, self);
+				HTTPLogWarn(@"%@[%p]: CHSWebSocket forgot to set itself as socket delegate", THIS_FILE, self);
 				
 				// Disconnect the socket.
 				// The socketDidDisconnect delegate method will handle everything else.
@@ -968,7 +968,7 @@ static NSMutableArray *recentNonces;
 			}
 			else
 			{
-				// The WebSocket is using the socket,
+				// The CHSWebSocket is using the socket,
 				// so make sure we don't disconnect it in the dealloc method.
 				asyncSocket = nil;
 				
@@ -1709,13 +1709,13 @@ static NSMutableArray *recentNonces;
 	return nil;
 }
 
-- (WebSocket *)webSocketForURI:(NSString *)path
+- (CHSWebSocket *)webSocketForURI:(NSString *)path
 {
 	HTTPLogTrace();
 	
-	// Override me to provide custom WebSocket responses.
-	// To do so, simply override the base WebSocket implementation, and add your custom functionality.
-	// Then return an instance of your custom WebSocket here.
+	// Override me to provide custom CHSWebSocket responses.
+	// To do so, simply override the base CHSWebSocket implementation, and add your custom functionality.
+	// Then return an instance of your custom CHSWebSocket here.
 	// 
 	// For example:
 	// 
@@ -2463,7 +2463,7 @@ static NSMutableArray *recentNonces;
 				[self finishResponse];
 				
 				// The only time we should invoke [self die] is from socketDidDisconnect,
-				// or if the socket gets taken over by someone else like a WebSocket.
+				// or if the socket gets taken over by someone else like a CHSWebSocket.
 				
 				[asyncSocket disconnect];
 			}

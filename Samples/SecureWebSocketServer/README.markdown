@@ -14,7 +14,7 @@ This means that when you browse the server in Safari, it may present a warning s
 
 Also, the first time you run the server, it will automatically create a self-signed certificate and add it to your keychain (under the name SecureHTTPServer). Now the SecureHTTPServer is authorized to access this keychain item - unless of course the binary changes. So if you make changes, or simply switch between debug/release builds, you'll keep getting prompted by the Keychain utility. To solve this problem, open the Keychain Access application. Find the "SecureHTTPServer" private key, and change it's Access Control to "Allow all applications to access this item".
 
-The sample includes a Web folder which is added to the project, copied into the application's resources folder, and is set as the document root of the http server. It contains a simple index.html file and the client-side code (run in the web browser) for the websocket stuff.
+The sample includes a Web folder which is added to the project, copied into the application's resources folder, and is set as the document root of the http server. It contains a simple index.html file and the client-side code (run in the web browser) for the chswebsocket stuff.
 
 It is fairly straight-forward. It will query the server for the time every second, and present the result on the page.
 

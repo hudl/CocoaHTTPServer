@@ -4,20 +4,20 @@ var t;
 
 function init()
 {
-	document.getElementById('updateme').innerHTML = "connecting to websocket";
+	document.getElementById('updateme').innerHTML = "connecting to chswebsocket";
 	OpenWebSocket();
 }
 
 function OpenWebSocket()
 { 
-    if ("WebSocket" in window)
+    if ("CHSWebSocketket" in window)
 	{
-		ws = new WebSocket("%%WEBSOCKET_URL%%");
+		ws = new CHSWebSocketket("%%WEBSOCKET_URL%%");
 		ws.onopen = function()
 		{
 			// Web Socket is connected
 			
-			document.getElementById('updateme').innerHTML = "websocket is open";
+			document.getElementById('updateme').innerHTML = "chswebsocketket is open";
 			
 			t=setTimeout("SendMessage()",1000);
 		};
@@ -27,7 +27,7 @@ function OpenWebSocket()
 		};
 		ws.onclose = function()
 		{
-			document.getElementById('updateme').innerHTML = "websocket is closed";
+			document.getElementById('updateme').innerHTML = "chswebsocketket is closed";
 			OpenWebSocket();
         };
         ws.onerror = function(evt)
@@ -37,13 +37,13 @@ function OpenWebSocket()
 	}
 	else
 	{
-		alert("Browser doesn't support WebSocket!");
+		alert("Browser doesn't support CHSWebSocketket!");
 	}
 }
 
 function SendMessage()
 {    
-	if ("WebSocket" in window)
+	if ("CHSWebSocketket" in window)
 	{
 		ws.send("time");
         
@@ -51,6 +51,6 @@ function SendMessage()
 	}
 	else
 	{
-		alert("Browser doesn't support WebSocket!");
+		alert("Browser doesn't support CHSWebSocketket!");
 	}
 }

@@ -1,7 +1,7 @@
 #import <Foundation/Foundation.h>
 
 @class GCDAsyncSocket;
-@class WebSocket;
+@class CHSWebSocket;
 
 #if TARGET_OS_IPHONE
   #if __IPHONE_OS_VERSION_MIN_REQUIRED >= 40000 // iPhone 4.0
@@ -193,7 +193,7 @@
 
 - (BOOL)isRunning;
 
-- (void)addWebSocket:(WebSocket *)ws;
+- (void)addWebSocket:(CHSWebSocket *)ws;
 
 - (NSUInteger)numberOfHTTPConnections;
 - (NSUInteger)numberOfWebSocketConnections;

@@ -26,7 +26,7 @@
 		DC278B541276714F00EAFA9F /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DC278B4B1276714F00EAFA9F /* HTTPConnection.m */; };
 		DC278B551276714F00EAFA9F /* HTTPDynamicFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DC278B4D1276714F00EAFA9F /* HTTPDynamicFileResponse.m */; };
 		DC278B571276714F00EAFA9F /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = DC278B511276714F00EAFA9F /* HTTPServer.m */; };
-		DC278B5A1276717D00EAFA9F /* WebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DC278B591276717D00EAFA9F /* WebSocket.m */; };
+		DC278B5A1276717D00EAFA9F /* CHSWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DC278B591276717D00EAFA9F /* CHSWebSocket.m */; };
 		DC37324C139F3E8500A8407D /* DAVConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DC373245139F3E8500A8407D /* DAVConnection.m */; };
 		DC37324D139F3E8500A8407D /* DAVResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DC373247139F3E8500A8407D /* DAVResponse.m */; };
 		DC37324E139F3E8500A8407D /* DELETEResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DC373249139F3E8500A8407D /* DELETEResponse.m */; };
@@ -93,8 +93,8 @@
 		DC278B4E1276714F00EAFA9F /* HTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPResponse.h; sourceTree = "<group>"; };
 		DC278B501276714F00EAFA9F /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPServer.h; sourceTree = "<group>"; };
 		DC278B511276714F00EAFA9F /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPServer.m; sourceTree = "<group>"; };
-		DC278B581276717D00EAFA9F /* WebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocket.h; sourceTree = "<group>"; };
-		DC278B591276717D00EAFA9F /* WebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebSocket.m; sourceTree = "<group>"; };
+		DC278B581276717D00EAFA9F /* CHSWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSWebSocket.h; sourceTree = "<group>"; };
+		DC278B591276717D00EAFA9F /* CHSWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSWebSocket.m; sourceTree = "<group>"; };
 		DC373244139F3E8500A8407D /* DAVConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVConnection.h; sourceTree = "<group>"; };
 		DC373245139F3E8500A8407D /* DAVConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAVConnection.m; sourceTree = "<group>"; };
 		DC373246139F3E8500A8407D /* DAVResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAVResponse.h; sourceTree = "<group>"; };
@@ -250,8 +250,8 @@
 				DC9A0994128A5275006AD900 /* HTTPMessage.h */,
 				DC9A0995128A5275006AD900 /* HTTPMessage.m */,
 				DC278B4E1276714F00EAFA9F /* HTTPResponse.h */,
-				DC278B581276717D00EAFA9F /* WebSocket.h */,
-				DC278B591276717D00EAFA9F /* WebSocket.m */,
+				DC278B581276717D00EAFA9F /* CHSWebSocket.h */,
+				DC278B591276717D00EAFA9F /* CHSWebSocket.m */,
 				DCA9EB8E0FA257A600FB1AC7 /* Responses */,
 				DCF61A7F0E609727009BFEE4 /* Categories */,
 			);
@@ -395,7 +395,7 @@
 				DC278B541276714F00EAFA9F /* HTTPConnection.m in Sources */,
 				DC278B551276714F00EAFA9F /* HTTPDynamicFileResponse.m in Sources */,
 				DC278B571276714F00EAFA9F /* HTTPServer.m in Sources */,
-				DC278B5A1276717D00EAFA9F /* WebSocket.m in Sources */,
+				DC278B5A1276717D00EAFA9F /* CHSWebSocket.m in Sources */,
 				DC9A0996128A5275006AD900 /* HTTPMessage.m in Sources */,
 				DC9631E0129E2DBB003AC1CE /* GCDAsyncSocket.m in Sources */,
 				DC9631FD129E2E02003AC1CE /* HTTPDataResponse.m in Sources */,

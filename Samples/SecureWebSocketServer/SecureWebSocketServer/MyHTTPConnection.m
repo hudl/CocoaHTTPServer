@@ -53,7 +53,7 @@ static const int httpLogLevel = HTTP_LOG_LEVEL_WARN; // | HTTP_LOG_FLAG_TRACE;
 	{
 		// The socket.js file contains a URL template that needs to be completed:
 		// 
-		// ws = new WebSocket("%%WEBSOCKET_URL%%");
+		// ws = new CHSWebSocket("%%WEBSOCKET_URL%%");
 		// 
 		// We need to replace "%%WEBSOCKET_URL%%" with whatever URL the server is running on.
 		// We can accomplish this easily with the HTTPDynamicFileResponse class,
@@ -86,7 +86,7 @@ static const int httpLogLevel = HTTP_LOG_LEVEL_WARN; // | HTTP_LOG_FLAG_TRACE;
 	return [super httpResponseForMethod:method URI:path];
 }
 
-- (WebSocket *)webSocketForURI:(NSString *)path
+- (CHSWebSocket *)webSocketForURI:(NSString *)path
 {
 	HTTPLogTrace2(@"%@[%p]: webSocketForURI: %@", THIS_FILE, self, path);
 	

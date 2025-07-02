@@ -1,7 +1,7 @@
 #import "HTTPServer.h"
 #import "GCDAsyncSocket.h"
 #import "HTTPConnection.h"
-#import "WebSocket.h"
+#import "CHSWebSocket.h"
 #import "HTTPLogging.h"
 
 #if ! __has_feature(objc_arc)
@@ -89,7 +89,7 @@ static const int httpLogLevel = HTTP_LOG_LEVEL_INFO; // | HTTP_LOG_FLAG_TRACE;
 		// by automatically appending a digit to the end of the name.
 		name = @"";
 		
-		// Initialize arrays to hold all the HTTP and webSocket connections
+		// Initialize arrays to hold all the HTTP and cHSWebSocket connections
 		connections = [[NSMutableArray alloc] init];
 		webSockets  = [[NSMutableArray alloc] init];
 		
@@ -102,7 +102,7 @@ static const int httpLogLevel = HTTP_LOG_LEVEL_INFO; // | HTTP_LOG_FLAG_TRACE;
 		                                             name:HTTPConnectionDidDieNotification
 		                                           object:nil];
 		
-		// Register for notifications of closed websocket connections
+		// Register for notifications of closed chswebsocket connections
 		[[NSNotificationCenter defaultCenter] addObserver:self
 		                                         selector:@selector(webSocketDidDie:)
 		                                             name:WebSocketDidDieNotification
@@ -473,11 +473,11 @@ static const int httpLogLevel = HTTP_LOG_LEVEL_INFO; // | HTTP_LOG_FLAG_TRACE;
 			[connections removeAllObjects];
 			[connectionsLock unlock];
 			
-			// Stop all WebSocket connections the server owns
+			// Stop all CHSWebSocket connections the server owns
 			[webSocketsLock lock];
-			for (WebSocket *webSocket in webSockets)
+			for (CHSWebSocket *cHSWebSocket in webSockets)
 			{
-				[webSocket stop];
+				[cHSWebSocket stop];
 			}
 			[webSockets removeAllObjects];
 			[webSocketsLock unlock];
@@ -496,7 +496,7 @@ static const int httpLogLevel = HTTP_LOG_LEVEL_INFO; // | HTTP_LOG_FLAG_TRACE;
 	return result;
 }
 
-- (void)addWebSocket:(WebSocket *)ws
+- (void)addWebSocket:(CHSWebSocket *)ws
 {
 	[webSocketsLock lock];
 	
@@ -525,7 +525,7 @@ static const int httpLogLevel = HTTP_LOG_LEVEL_INFO; // | HTTP_LOG_FLAG_TRACE;
 }
 
 /**
- * Returns the number of websocket client connections that are currently connected to the server.
+ * Returns the number of chswebsocket client connections that are currently connected to the server.
 **/
 - (NSUInteger)numberOfWebSocketConnections
 {
@@ -693,7 +693,7 @@ static const int httpLogLevel = HTTP_LOG_LEVEL_INFO; // | HTTP_LOG_FLAG_TRACE;
 
 /**
  * This method is automatically called when a notification of type WebSocketDidDieNotification is posted.
- * It allows us to remove the websocket from our array.
+ * It allows us to remove the chswebsocket from our array.
 **/
 - (void)webSocketDidDie:(NSNotification *)notification
 {

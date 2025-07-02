@@ -32,7 +32,7 @@
 		DC372F6F139DC40000A8407D /* HTTPDynamicFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DC372F5F139DC40000A8407D /* HTTPDynamicFileResponse.m */; };
 		DC372F70139DC40000A8407D /* HTTPFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DC372F61139DC40000A8407D /* HTTPFileResponse.m */; };
 		DC372F71139DC40000A8407D /* HTTPRedirectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DC372F63139DC40000A8407D /* HTTPRedirectResponse.m */; };
-		DC372F72139DC40000A8407D /* WebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DC372F65139DC40000A8407D /* WebSocket.m */; };
+		DC372F72139DC40000A8407D /* CHSWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DC372F65139DC40000A8407D /* CHSWebSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -105,8 +105,8 @@
 		DC372F61139DC40000A8407D /* HTTPFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPFileResponse.m; sourceTree = "<group>"; };
 		DC372F62139DC40000A8407D /* HTTPRedirectResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPRedirectResponse.h; sourceTree = "<group>"; };
 		DC372F63139DC40000A8407D /* HTTPRedirectResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRedirectResponse.m; sourceTree = "<group>"; };
-		DC372F64139DC40000A8407D /* WebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebSocket.h; path = ../../Core/WebSocket.h; sourceTree = "<group>"; };
-		DC372F65139DC40000A8407D /* WebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebSocket.m; path = ../../Core/WebSocket.m; sourceTree = "<group>"; };
+		DC372F64139DC40000A8407D /* CHSWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHSWebSocket.h; path = ../../Core/CHSWebSocket.h; sourceTree = "<group>"; };
+		DC372F65139DC40000A8407D /* CHSWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHSWebSocket.m; path = ../../Core/CHSWebSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,8 +218,8 @@
 				DC372F54139DC40000A8407D /* HTTPMessage.h */,
 				DC372F55139DC40000A8407D /* HTTPMessage.m */,
 				DC372F56139DC40000A8407D /* HTTPResponse.h */,
-				DC372F64139DC40000A8407D /* WebSocket.h */,
-				DC372F65139DC40000A8407D /* WebSocket.m */,
+				DC372F64139DC40000A8407D /* CHSWebSocket.h */,
+				DC372F65139DC40000A8407D /* CHSWebSocket.m */,
 				DC372F59139DC40000A8407D /* Responses */,
 				DC372F48139DC40000A8407D /* Categories */,
 			);
@@ -379,7 +379,7 @@
 				DC372F6F139DC40000A8407D /* HTTPDynamicFileResponse.m in Sources */,
 				DC372F70139DC40000A8407D /* HTTPFileResponse.m in Sources */,
 				DC372F71139DC40000A8407D /* HTTPRedirectResponse.m in Sources */,
-				DC372F72139DC40000A8407D /* WebSocket.m in Sources */,
+				DC372F72139DC40000A8407D /* CHSWebSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

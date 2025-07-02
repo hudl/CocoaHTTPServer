@@ -1,12 +1,12 @@
 function WebSocketTest()
 {
-	if ("WebSocket" in window)
+	if ("CHSWebSocket" in window)
 	{
-		alert("WebSocket supported here!  :)\r\n\r\nBrowser: " + navigator.appName + " " + navigator.appVersion + "\r\n\r\n(based on Google sample code)");
+		alert("CHSWebSocketket supported here!  :)\r\n\r\nBrowser: " + navigator.appName + " " + navigator.appVersion + "\r\n\r\n(based on Google sample code)");
 	}
 	else
 	{
-		// Browser doesn't support WebSocket
-		alert("WebSocket NOT supported here!  :(\r\n\r\nBrowser: " + navigator.appName + " " + navigator.appVersion + "\r\n\r\n(based on Google sample code)");
+		// Browser doesn't support CHSWebSocketket
+		alert("CHSWebSocketket NOT supported here!  :(\r\n\r\nBrowser: " + navigator.appName + " " + navigator.appVersion + "\r\n\r\n(based on Google sample code)");
 	}
 }

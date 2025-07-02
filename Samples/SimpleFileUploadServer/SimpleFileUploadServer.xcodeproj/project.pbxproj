@@ -28,7 +28,7 @@
 		E2BCBB56153C3D88009F2F63 /* HTTPDynamicFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCBB22153C3D88009F2F63 /* HTTPDynamicFileResponse.m */; };
 		E2BCBB57153C3D88009F2F63 /* HTTPFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCBB24153C3D88009F2F63 /* HTTPFileResponse.m */; };
 		E2BCBB58153C3D88009F2F63 /* HTTPRedirectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCBB26153C3D88009F2F63 /* HTTPRedirectResponse.m */; };
-		E2BCBB59153C3D88009F2F63 /* WebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCBB28153C3D88009F2F63 /* WebSocket.m */; };
+		E2BCBB59153C3D88009F2F63 /* CHSWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCBB28153C3D88009F2F63 /* CHSWebSocket.m */; };
 		E2BCBB5F153C3D88009F2F63 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCBB37153C3D88009F2F63 /* GCDAsyncSocket.m */; };
 		E2BCBB61153C3D88009F2F63 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCBB3B153C3D88009F2F63 /* DDAbstractDatabaseLogger.m */; };
 		E2BCBB62153C3D88009F2F63 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BCBB3D153C3D88009F2F63 /* DDASLLogger.m */; };
@@ -88,8 +88,8 @@
 		E2BCBB24153C3D88009F2F63 /* HTTPFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPFileResponse.m; sourceTree = "<group>"; };
 		E2BCBB25153C3D88009F2F63 /* HTTPRedirectResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPRedirectResponse.h; sourceTree = "<group>"; };
 		E2BCBB26153C3D88009F2F63 /* HTTPRedirectResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRedirectResponse.m; sourceTree = "<group>"; };
-		E2BCBB27153C3D88009F2F63 /* WebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebSocket.h; path = ../../Core/WebSocket.h; sourceTree = "<group>"; };
-		E2BCBB28153C3D88009F2F63 /* WebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebSocket.m; path = ../../Core/WebSocket.m; sourceTree = "<group>"; };
+		E2BCBB27153C3D88009F2F63 /* CHSWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHSWebSocket.h; path = ../../Core/CHSWebSocket.h; sourceTree = "<group>"; };
+		E2BCBB28153C3D88009F2F63 /* CHSWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHSWebSocket.m; path = ../../Core/CHSWebSocket.m; sourceTree = "<group>"; };
 		E2BCBB36153C3D88009F2F63 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
 		E2BCBB37153C3D88009F2F63 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
 		E2BCBB3A153C3D88009F2F63 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = ../../Vendor/CocoaLumberjack/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
@@ -208,8 +208,8 @@
 				E2BCBB14153C3D88009F2F63 /* HTTPServer.m */,
 				E2BCBB15153C3D88009F2F63 /* Mime */,
 				E2BCBB1C153C3D88009F2F63 /* Responses */,
-				E2BCBB27153C3D88009F2F63 /* WebSocket.h */,
-				E2BCBB28153C3D88009F2F63 /* WebSocket.m */,
+				E2BCBB27153C3D88009F2F63 /* CHSWebSocket.h */,
+				E2BCBB28153C3D88009F2F63 /* CHSWebSocket.m */,
 			);
 			name = CocoaHTTPServer;
 			sourceTree = "<group>";
@@ -391,7 +391,7 @@
 				E2BCBB56153C3D88009F2F63 /* HTTPDynamicFileResponse.m in Sources */,
 				E2BCBB57153C3D88009F2F63 /* HTTPFileResponse.m in Sources */,
 				E2BCBB58153C3D88009F2F63 /* HTTPRedirectResponse.m in Sources */,
-				E2BCBB59153C3D88009F2F63 /* WebSocket.m in Sources */,
+				E2BCBB59153C3D88009F2F63 /* CHSWebSocket.m in Sources */,
 				E2BCBB5F153C3D88009F2F63 /* GCDAsyncSocket.m in Sources */,
 				E2BCBB61153C3D88009F2F63 /* DDAbstractDatabaseLogger.m in Sources */,
 				E2BCBB62153C3D88009F2F63 /* DDASLLogger.m in Sources */,

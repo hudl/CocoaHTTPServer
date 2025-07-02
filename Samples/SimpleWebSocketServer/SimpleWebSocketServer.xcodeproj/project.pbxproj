@@ -34,7 +34,7 @@
 		DC37303F139DC5D200A8407D /* HTTPDynamicFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DC37302F139DC5D200A8407D /* HTTPDynamicFileResponse.m */; };
 		DC373040139DC5D200A8407D /* HTTPFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DC373031139DC5D200A8407D /* HTTPFileResponse.m */; };
 		DC373041139DC5D200A8407D /* HTTPRedirectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DC373033139DC5D200A8407D /* HTTPRedirectResponse.m */; };
-		DC373042139DC5D200A8407D /* WebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DC373035139DC5D200A8407D /* WebSocket.m */; };
+		DC373042139DC5D200A8407D /* CHSWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DC373035139DC5D200A8407D /* CHSWebSocket.m */; };
 		DC753F2D117E85F90072A9C4 /* MyHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DC753F2C117E85F90072A9C4 /* MyHTTPConnection.m */; };
 		DC753F40117E8EC30072A9C4 /* MyWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DC753F3F117E8EC30072A9C4 /* MyWebSocket.m */; };
 		DCE8083B1180AB500020037F /* Web in Resources */ = {isa = PBXBuildFile; fileRef = DCE808361180AB500020037F /* Web */; };
@@ -100,8 +100,8 @@
 		DC373031139DC5D200A8407D /* HTTPFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPFileResponse.m; sourceTree = "<group>"; };
 		DC373032139DC5D200A8407D /* HTTPRedirectResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPRedirectResponse.h; sourceTree = "<group>"; };
 		DC373033139DC5D200A8407D /* HTTPRedirectResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRedirectResponse.m; sourceTree = "<group>"; };
-		DC373034139DC5D200A8407D /* WebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebSocket.h; path = ../../Core/WebSocket.h; sourceTree = "<group>"; };
-		DC373035139DC5D200A8407D /* WebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebSocket.m; path = ../../Core/WebSocket.m; sourceTree = "<group>"; };
+		DC373034139DC5D200A8407D /* CHSWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHSWebSocket.h; path = ../../Core/CHSWebSocket.h; sourceTree = "<group>"; };
+		DC373035139DC5D200A8407D /* CHSWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHSWebSocket.m; path = ../../Core/CHSWebSocket.m; sourceTree = "<group>"; };
 		DC753F2B117E85F90072A9C4 /* MyHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHTTPConnection.h; sourceTree = "<group>"; };
 		DC753F2C117E85F90072A9C4 /* MyHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHTTPConnection.m; sourceTree = "<group>"; };
 		DC753F3E117E8EC30072A9C4 /* MyWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWebSocket.h; sourceTree = "<group>"; };
@@ -294,8 +294,8 @@
 				DC373024139DC5D200A8407D /* HTTPMessage.h */,
 				DC373025139DC5D200A8407D /* HTTPMessage.m */,
 				DC373026139DC5D200A8407D /* HTTPResponse.h */,
-				DC373034139DC5D200A8407D /* WebSocket.h */,
-				DC373035139DC5D200A8407D /* WebSocket.m */,
+				DC373034139DC5D200A8407D /* CHSWebSocket.h */,
+				DC373035139DC5D200A8407D /* CHSWebSocket.m */,
 				DC373029139DC5D200A8407D /* Responses */,
 				DC373018139DC5D200A8407D /* Categories */,
 			);
@@ -395,7 +395,7 @@
 				DC37303F139DC5D200A8407D /* HTTPDynamicFileResponse.m in Sources */,
 				DC373040139DC5D200A8407D /* HTTPFileResponse.m in Sources */,
 				DC373041139DC5D200A8407D /* HTTPRedirectResponse.m in Sources */,
-				DC373042139DC5D200A8407D /* WebSocket.m in Sources */,
+				DC373042139DC5D200A8407D /* CHSWebSocket.m in Sources */,
 				DC12840714A66F72006112AB /* DDAbstractDatabaseLogger.m in Sources */,
 				DC12840814A66F72006112AB /* DDASLLogger.m in Sources */,
 				DC12840914A66F72006112AB /* DDFileLogger.m in Sources */,

@@ -14,7 +14,7 @@ static const int httpLogLevel = HTTP_LOG_LEVEL_WARN | HTTP_LOG_FLAG_TRACE;
 	
 	[super didOpen];
 	
-	[self sendMessage:@"Welcome to my WebSocket"];
+	[self sendMessage:@"Welcome to my CHSWebSocket"];
 }
 
 - (void)didReceiveMessage:(NSString *)msg

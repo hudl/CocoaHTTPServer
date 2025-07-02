@@ -2,7 +2,7 @@ INFO:
 
 This example project demonstrates support for WebSockets.
 
-The sample includes a Web folder which is added to the project, copied into the application's resources folder, and is set as the document root of the http server. It contains a simple index.html file and the client-side code (run in the web browser) for the websocket stuff.
+The sample includes a Web folder which is added to the project, copied into the application's resources folder, and is set as the document root of the http server. It contains a simple index.html file and the client-side code (run in the web browser) for the chswebsocket stuff.
 
 Take a look at the MyWebSocket class to see the related server code.
 

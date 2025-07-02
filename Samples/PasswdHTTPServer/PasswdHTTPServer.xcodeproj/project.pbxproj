@@ -33,7 +33,7 @@
 		DC372F3B139DC36800A8407D /* HTTPDynamicFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DC372F2B139DC36800A8407D /* HTTPDynamicFileResponse.m */; };
 		DC372F3C139DC36800A8407D /* HTTPFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DC372F2D139DC36800A8407D /* HTTPFileResponse.m */; };
 		DC372F3D139DC36800A8407D /* HTTPRedirectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DC372F2F139DC36800A8407D /* HTTPRedirectResponse.m */; };
-		DC372F3E139DC36800A8407D /* WebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DC372F31139DC36800A8407D /* WebSocket.m */; };
+		DC372F3E139DC36800A8407D /* CHSWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DC372F31139DC36800A8407D /* CHSWebSocket.m */; };
 		DC5BD6520FC333F400DA9B03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5BD6510FC333F400DA9B03 /* AppDelegate.m */; };
 		DC5BD6550FC3345600DA9B03 /* MyHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5BD6540FC3345600DA9B03 /* MyHTTPConnection.m */; };
 /* End PBXBuildFile section */
@@ -96,8 +96,8 @@
 		DC372F2D139DC36800A8407D /* HTTPFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPFileResponse.m; sourceTree = "<group>"; };
 		DC372F2E139DC36800A8407D /* HTTPRedirectResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPRedirectResponse.h; sourceTree = "<group>"; };
 		DC372F2F139DC36800A8407D /* HTTPRedirectResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRedirectResponse.m; sourceTree = "<group>"; };
-		DC372F30139DC36800A8407D /* WebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebSocket.h; path = ../../Core/WebSocket.h; sourceTree = "<group>"; };
-		DC372F31139DC36800A8407D /* WebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebSocket.m; path = ../../Core/WebSocket.m; sourceTree = "<group>"; };
+		DC372F30139DC36800A8407D /* CHSWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHSWebSocket.h; path = ../../Core/CHSWebSocket.h; sourceTree = "<group>"; };
+		DC372F31139DC36800A8407D /* CHSWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHSWebSocket.m; path = ../../Core/CHSWebSocket.m; sourceTree = "<group>"; };
 		DC5BD6500FC333F400DA9B03 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DC5BD6510FC333F400DA9B03 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DC5BD6530FC3345600DA9B03 /* MyHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHTTPConnection.h; sourceTree = "<group>"; };
@@ -295,8 +295,8 @@
 				DC372F20139DC36800A8407D /* HTTPMessage.h */,
 				DC372F21139DC36800A8407D /* HTTPMessage.m */,
 				DC372F22139DC36800A8407D /* HTTPResponse.h */,
-				DC372F30139DC36800A8407D /* WebSocket.h */,
-				DC372F31139DC36800A8407D /* WebSocket.m */,
+				DC372F30139DC36800A8407D /* CHSWebSocket.h */,
+				DC372F31139DC36800A8407D /* CHSWebSocket.m */,
 				DC372F25139DC36800A8407D /* Responses */,
 				DC372F14139DC36800A8407D /* Categories */,
 			);
@@ -385,7 +385,7 @@
 				DC372F3B139DC36800A8407D /* HTTPDynamicFileResponse.m in Sources */,
 				DC372F3C139DC36800A8407D /* HTTPFileResponse.m in Sources */,
 				DC372F3D139DC36800A8407D /* HTTPRedirectResponse.m in Sources */,
-				DC372F3E139DC36800A8407D /* WebSocket.m in Sources */,
+				DC372F3E139DC36800A8407D /* CHSWebSocket.m in Sources */,
 				DC12838514A5807F006112AB /* DDAbstractDatabaseLogger.m in Sources */,
 				DC12838614A5807F006112AB /* DDASLLogger.m in Sources */,
 				DC12838714A5807F006112AB /* DDFileLogger.m in Sources */,

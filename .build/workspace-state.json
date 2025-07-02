@@ -55,7 +55,10 @@
         },
         "subpath" : "swift-log"
       }
+    ],
+    "prebuilts" : [
+
     ]
   },
-  "version" : 5
+  "version" : 7
 }

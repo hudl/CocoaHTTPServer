@@ -22,7 +22,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "CocoaHTTPServer",
-            dependencies: ["CocoaLumberjack", "CocoaAsyncSocket"]),
+            dependencies: ["CocoaLumberjack", "CocoaAsyncSocket"],
+            publicHeadersPath: "include"),
         .testTarget(
             name: "CocoaHTTPServerTests",
             dependencies: ["CocoaHTTPServer"]),
